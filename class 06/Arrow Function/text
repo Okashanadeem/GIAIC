@@ -1,0 +1,18 @@
+- Both are same but the syntax of Arrow Function is different.
+the syntax is 
+
+            let Arfunc = () => {
+                console.log("hello Arrow Function")
+            }
+            Arfunc()
+ 
+   - The difference main of function fom the Arrow function is:
+
+            Function func (){
+                console.log("hello Function")
+            }
+            func()
+
+- Arrow function is also called lemda function.
+
+The assignment is to make a clculator in both function and arrow function.

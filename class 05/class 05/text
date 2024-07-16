@@ -1,0 +1,55 @@
+this nclass is about function  and have 5 assignments
+
+first of all what is function?
+
+- function is a very basic need for programming because you dont have to write the whole code again and again 
+you can code the function at once then name itand it can be call any where!!!
+
+- you can write the whole typescript in it!!
+
+- the whole benifit of the function is that if the condition is true then it would run other wise it wouldn`t.
+
+- the syntax of a function is 
+                               function    myfunction() {
+                                conole.log("hello world")
+                               }
+
+if the upper condition is true then it wouuld run the code and paste the "hello world" in  the console.
+other wise it would not perform the tast and you can call the function in the middle of typescript when ever you want!!
+like:-
+
+console.log("hello world")  <= this is an oild way and you have to write the code again and again if you want the simple way is that, that you can call it like this:-
+
+myfuction
+
+thats it!!! it would run the entire program in it!
+
+- another thing is this that if you write the entire function like this...
+
+                               function    myfunction() {
+                                conole.log("hello world")
+                               }
+
+it wont be display on the console you have to call it first like this...
+  
+
+                                 function    myfunction() {
+                                conole.log("hello world")
+                               }
+
+                               myfunction()   <= see! now it would be display on the cosole!!
+
+- if you call the function twice or trice or as much as you want... it would apply it every single time you call it.like:-
+
+                               myfunction()
+                               myfunction()
+                               myfunction()
+
+the result would be:-
+                            
+                               hello world
+                               hello world
+                               hello world
+
+- when you write code, functions are like friends you can call on for help. Even if you ask for their help before officially introducing them, they magically pop up when needed. It's a bit like your friend suddenly appearing right beside you when you need them most. But just like with friends, it's nicer to introduce them properly before asking for favors!
+

@@ -1,0 +1,9 @@
+To add a config file type 
+                            tsc --init
+in cmd
+
+also type 
+        tsc -w
+it would start the watch mode now you have 
+to just write :
+               node app.js
