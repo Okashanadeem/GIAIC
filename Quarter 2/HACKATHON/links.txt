@@ -1,0 +1,19 @@
+Milestone 1 / Milestone 2  GitHub Repo URL
+
+https://github.com/Okashanadeem/Static-Resume-builder
+Deployment URL: Vercel Link
+
+https://static-resume-builder-by-okasha.vercel.app/
+
+
+Milestone 3: Dynamic Resume Builder with Form (100 Points)
+Milestone 3 GitHub Repo URL? (you can use same URL)
+https://github.com/Okashanadeem/Dynamic-Resume-builder-
+Deployment URL: Vercel Link
+https://dynamic-resume-builder-by-okasha.vercel.app/
+
+Milestone 4: Editable Resume (100 Points)
+Milestone 4 GitHub Repo URL?
+https://github.com/Okashanadeem/Editable-Dynamic-Resume-Builder
+Deployment URL: Vercel Link
+https://editable-dynamic-resume-builder-by-okasha.vercel.app/
