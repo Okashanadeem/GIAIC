@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Class Overview
 
-## Getting Started
-
-First, run the development server:
+In this class, we created our first Next.js project. To start, we ran the following commands:
 
 ```bash
+npx create-next-app@latest .
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### What I've Learned So Far:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### 1. **React vs. Next.js**:
+- **React**: A library for building user interfaces.
+- **Next.js**: A framework built on top of React that adds features like server-side rendering and routing.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### 2. **Library vs. Framework**:
+- **Library**: Helps with specific tasks, giving developers more freedom (React).
+- **Framework**: Provides a full structure and set of rules to follow (Next.js).
 
-## Learn More
+#### 3. **Creating a New Repo on GitHub Desktop**:
+- We learned how to create a new repo on GitHub Desktop directly.
 
-To learn more about Next.js, take a look at the following resources:
+#### 4. **Parent and Child Components**:
+- Components can have parent-child relationships, where the parent passes data (props) to the child.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### 5. **Next.js Project Structure**:
+- **layout/**: main view point of webpage.
+- **pages/**: Contains the app's pages.
+- **public/**: Stores static files like images.
+- **components/**: Reusable parts of the UI.
+- **styles/**: CSS files for styling.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
