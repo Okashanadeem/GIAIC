@@ -1,38 +1,36 @@
-## Class 03 Overview
+## Class 04 Overview
 
 ### Key Learning Objectives:
-- Creating simple page navigation and routes in Next.js.
-- Using the `Link` component for easy navigation.
-- Learning how to make dynamic routes by using brackets (e.g., placing the folder name inside `[ ]` to create dynamic routes).
-- Fetching data from a JSON API to display a product listing using the `map` function.
-- Navigating to a product's detail page when clicking on it and displaying the product's ID and title on the detail page.
+1. Completing the topics from Class 03 that were left unfinished (view Class 03 code [here](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class_03)).
+2. Fetching data from the JSON Placeholder API and displaying it as a product listing.
+3. Understanding the `map` method deeply, including its three parameters.
+4. Creating dynamic routes for products using Next.js.
 
 ### Steps Covered:
-1. **Heading for Home Page:**
-   - Added a basic heading to indicate that it’s the home page.
 
-2. **Creating an About Page:**
-   - Created an `about` folder.
-   - Added a `page.tsx` file within the folder to establish an `/about` route.
-   - Accessed the About page by appending `/about` to the localhost URL.
+1. **Fetching Data from JSON Placeholder:**
+   - Fetched data from the JSON Placeholder API.
+   - Displayed a product listing using the fetched data, showing key details such as title, body, and ID.
 
-3. **Building a Navigation Bar:**
-   - To simplify navigation, created a `Navbar` component.
-   - Displayed the `Navbar` component within the `layout.tsx` so that it appears on every page, enabling easy navigation across the site.
+2. **Understanding the `map` Method:**
+   - Explored the `map` method and its three parameters:
+     - **First Parameter (Element):** Represents the current element being processed in the array.
+     - **Second Parameter (Index):** The index of the current element within the array.
+     - **Third Parameter (Array):** The entire array that the `map` method is called on.
+   - Demonstrated the use of `map` to loop through the product list and render each item dynamically.
 
-4. **Working with Sub-Routes:**
-   - Practiced creating sub-routes by adding `/products/proct01` and `/products/proct02`.
+3. **Displaying Product Details:**
+   - Set up functionality where, upon clicking a product, the user is taken to a detail page.
+   - The detail page displays the `product.title`, `product.body`, and `product.id`.
 
-5. **Implementing Dynamic Routes:**
-   - Learned how to create dynamic routes by naming the folder inside the `products` folder as `[productId]`. This allows navigation to dynamic routes like `/products/[productId]`, making the routes flexible for different products.
+4. **Dynamic Routes for Products:**
+   - Created a dynamic route by naming the folder as `[product]` inside the `products` directory.
+   - This allows users to visit a URL like `/products/[product]` and be redirected to the corresponding product's detail page.
+   - If the product doesn't exist, no details (title, body, or ID) are shown.
 
-6. **Fetching Data with JSON API:**
-   - Used a JSON API to fetch and display a list of 100 products. The products were rendered on the product listing page using the `map` function.
-   - Each product links to its own detail page, where the product's ID and title are displayed dynamically.
-
-7. **Using the `Link` Component:**
-   - All navigation between routes was handled using the `Link` component, imported from Next.js for efficient navigation.
+5. **Working with Objects and Arrays Using `map`:**
+   - Learned how to use the `map` method to convert arrays into objects and vice versa.
+   - Created a `map method` folder inside the `src` directory, and a `map.ts` file within it to showcase different examples of using the `map` method for transformations.
 
 ### Key Takeaway:
-This class focused on creating basic and dynamic routes, fetching and displaying product data from an API, and improving site navigation using the `Link` component in Next.js. The key emphasis was on working with dynamic content and routing.
-
+- This class provided a deeper understanding of the `map` method, dynamic routing in Next.js, and the process of fetching and displaying data from an API. It also covered transforming arrays and objects using the `map` method, enhancing data manipulation skills.
