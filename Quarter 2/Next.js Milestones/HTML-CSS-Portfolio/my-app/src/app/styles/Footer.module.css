@@ -1,0 +1,64 @@
+/* General footer styling */
+.footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    color: #4A148C; /* Purple text color */
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+/* Footer content container - Align content inline */
+.footerContent {
+    display: flex;
+    justify-content: space-between; /* Distribute space between content */
+    align-items: center; /* Vertically center items */
+    gap: 2rem; /* Space between elements */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Footer text */
+.footer p {
+    color: #333; /* Black color for copyright text */
+    font-size: 1rem;
+}
+
+/* Social links styling */
+.socialLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.socialLinks a {
+    color: #4A148C; /* Purple color */
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: #D81B60; /* Light pink color on hover */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .footerContent {
+        flex-direction: column; /* Stack content on smaller screens */
+        gap: 1rem;
+    }
+
+    .socialLinks {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .socialLinks a {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,241 @@
+/* General container styling */
+.container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+/* Hero section styling */
+.hero {
+  position: relative;
+  padding: 4rem 2rem;
+  background-image: url('../../../images/img01.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-in animation for hero */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Header and paragraph animations in hero */
+.nameDiv {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.nameDiv h1 {
+  font-size: 5rem; /* Larger font size for large screens */
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  animation: fadeSlideIn 2s ease-out;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nameDiv p {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #ddd;
+  font-style: italic;
+}
+
+/* Main content layout */
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.about, .contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Typing effect */
+.typingEffect {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #4A148C;
+  border-right: 2px solid #4A148C;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Social links styling */
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.socialLinks a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #D81B60;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: #6A1B9A;
+  transform: translateY(-2px); /* Hover effect for links */
+}
+
+.socialLinks a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #6A1B9A;
+  transition: width 0.3s ease;
+}
+
+.socialLinks a:hover::after {
+  width: 100%;
+}
+
+/* Container for the Next button */
+.nextButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Styling for the Next button */
+.nextButton {
+  background-color: #6A1B9A; /* Deep purple background */
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none; /* Remove default underline from link */
+  display: inline-block;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.nextButton:hover {
+  background-color: #D81B60; /* Light pink color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.nextButton:focus {
+  outline: none;
+}
+
+.nextButton:active {
+  transform: scale(1); /* Return to normal size on click */
+}
+
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .nameDiv h1 {
+    font-size: 3rem; /* Adjusted for mobile view */
+  }
+
+  .nameDiv p {
+    font-size: 1.5rem; /* Adjusted font size for mobile */
+  }
+
+  .mainContent {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about, .contact {
+    padding: 1.5rem;
+  }
+
+  .about h2, .contact h2 {
+    font-size: 2rem;
+  }
+
+  .typingEffect {
+    font-size: 3rem; /* Slightly smaller font on mobile */
+  }
+
+  .socialLinks a {
+    font-size: 1rem;
+  }
+}
+
+/* Large screen responsiveness (1200px and up) */
+@media (min-width: 1200px) {
+  .hero {
+    padding: 5rem 2rem;
+  }
+
+  .nameDiv h1 {
+    font-size: 6rem; /* Larger font on large screens */
+  }
+
+  .nameDiv p {
+    font-size: 2.5rem;
+  }
+
+  .mainContent {
+    gap: 3rem;
+  }
+
+  .about, .contact {
+    padding: 3rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .typingEffect {
+    font-size: 5rem;
+  }
+
+  .socialLinks a {
+    font-size: 1.5rem;
+  }
+}
