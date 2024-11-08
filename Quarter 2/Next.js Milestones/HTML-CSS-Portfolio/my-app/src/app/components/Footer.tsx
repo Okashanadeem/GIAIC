@@ -1,5 +1,5 @@
-// src/app/footer.tsx
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+// src/app/components/Footer.tsx
+import { FaGithub } from 'react-icons/fa';
 import styles from '../styles/Footer.module.css';
 
 const Footer = () => {

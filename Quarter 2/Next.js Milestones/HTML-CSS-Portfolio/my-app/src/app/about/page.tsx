@@ -13,21 +13,21 @@ export default function About() {
         <div className={styles.aboutContent}>
           <div className={styles.paragraphBox}>
             <p>
-              Hi, I'm Okasha Nadeem, an 18-year-old tech enthusiast and a second-year Computer Science student at D.J. Science College in Karachi, Pakistan. With a deep passion for technology and a drive to make a positive impact, I specialize in web development, focusing on front-end technologies like HTML, CSS, JavaScript, TypeScript, and React.js, Next.js. I'm also expanding my skills into Full Stack Development, including Node.js, MongoDb, Express.js.
+              Hi, I&apos;m Okasha Nadeem, an 18-year-old tech enthusiast and a second-year Computer Science student at D.J. Science College in Karachi, Pakistan. With a deep passion for technology and a drive to make a positive impact, I specialize in web development, focusing on front-end technologies like HTML, CSS, JavaScript, TypeScript, and React.js, Next.js. I&apos;m also expanding my skills into Full Stack Development, including Node.js, MongoDb, and Express.js.
             </p>
 
             <p>
-              Along with my academic journey, I serve as the Class Representative, where I nurture my leadership skills. My aspirations in tech include becoming a Software Engineer and delving into cutting-edge fields like AI, Cloud Computing, Web 3, and the Metaverse. I'm also on the path to becoming a Certified Cloud Applied Generative AI Engineer.
+              Along with my academic journey, I serve as the Class Representative, where I nurture my leadership skills. My aspirations in tech include becoming a Software Engineer and delving into cutting-edge fields like AI, Cloud Computing, Web 3, and the Metaverse. I&apos;m also on the path to becoming a Certified Cloud Applied Generative AI Engineer.
             </p>
 
             <p>
-              Through my work as an English teacher, I’ve developed strong communication abilities, making complex ideas accessible and clear. I am committed to delivering high-quality work on time, pushing boundaries with creativity and innovation, and fostering collaboration in every project.
+              Through my work as an English teacher, I&apos;ve developed strong communication abilities, making complex ideas accessible and clear. I am committed to delivering high-quality work on time, pushing boundaries with creativity and innovation, and fostering collaboration in every project.
             </p>
           </div>
         </div>
 
         <div className={styles.photoWrapper}>
-          <Image src={img} alt="Okasha Nadeem" className={styles.photo} />
+          <Image src={img} alt="Okasha Nadeem" className={styles.photo} layout="responsive" />
         </div>
       </section>
 
