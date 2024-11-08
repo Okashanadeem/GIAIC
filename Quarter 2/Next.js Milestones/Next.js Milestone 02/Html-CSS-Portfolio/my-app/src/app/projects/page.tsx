@@ -25,9 +25,9 @@ export default function Projects() {
     },
     {
       title: "My Portfolio",
-      description: "A professional portfolio website built with pure HTML and CSS, showcasing my skills, projects, and experience in web development.",
+      description: "A professional portfolio website built with pure HTML, CSS and Tailwind, showcasing my skills, projects, and experience in web development.",
       link: "https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/Milestones/Portfolio/my-app",
-      viewLink: "https://OkashaNadeemPortfolio.vercel.app/", // Live project link
+      viewLink: "https://okasha-nadeem-tailwind-portfolio.vercel.app/", // Live project link
     }    
   ];
 
