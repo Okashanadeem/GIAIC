@@ -86,15 +86,15 @@ For your assignment, you need to:
 
 1. **Create a portfolio using Tailwind CSS**:
    - Building a portfolio will help you practice various TypeScript and Next.js topics such as routing, state management, and component reusability.
-   - Checkout the project which I have made: (Link)
+   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class-07/Assignment/Portfolio))
 
 2. **Design a FaceBook login page with Tailwind and CSS**:
    - Creating this page will allow you to practice styling and integrating forms with Tailwind, and understand how to create responsive layouts.
-   - Checkout the project which I have made: (Link)
+   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class-07/my-app/src/app/facebook))
 
 3. **Build a Todo Application using Tailwind CSS**:
    - Developing a Todo Application will teach you about CRUD operations (Create, Read, Update, Delete) in Next.js while enhancing your ability to use Tailwind for responsive and interactive UIs.
-   - Checkout the project which I have made: (Link)
+   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class-07/my-app/src/app/todo))
 
 These projects will also reinforce your understanding of React, Next.js, and Tailwind CSS, enhancing your ability to create efficient and appealing web applications.
 
