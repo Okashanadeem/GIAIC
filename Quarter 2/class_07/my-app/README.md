@@ -1,15 +1,15 @@
-### Class 7: Understanding Tailwind CSS
+# Class 7: Understanding Tailwind CSS
 
 ---
 
-#### What is Tailwind CSS?
+### What is Tailwind CSS?
 Tailwind CSS is a utility-first CSS framework that provides a set of pre-defined classes to style HTML elements quickly. It allows developers to build responsive and customizable user interfaces without having to write custom CSS. Tailwind focuses on flexibility and speed, providing utilities for common styling tasks such as margins, paddings, colors, typography, and more.
 
 For more information, visit the [Tailwind CSS official documentation](https://tailwindcss.com/). The documentation explains everything in detail and provides examples on how to use Tailwind to its full potential.
 
 ---
 
-#### Typography in Tailwind CSS
+### Typography in Tailwind CSS
 Tailwind CSS allows you to change fonts and apply various font styles using utility classes. Here are a few examples:
 
 - **Font family**:
@@ -45,7 +45,7 @@ Tailwind CSS allows you to change fonts and apply various font styles using util
 
 ---
 
-#### Web Layout with Tailwind CSS
+### Web Layout with Tailwind CSS
 Tailwind provides built-in responsive breakpoints to create layouts that adapt to different screen sizes. Here is how you define breakpoints in your Tailwind configuration file (`tailwind.config.ts`):
 
 ```javascript
@@ -86,15 +86,15 @@ For your assignment, you need to:
 
 1. **Create a portfolio using Tailwind CSS**:
    - Building a portfolio will help you practice various TypeScript and Next.js topics such as routing, state management, and component reusability.
-   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class-07/Assignment/Portfolio))
+   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class_07/Assignment/Portfolio))
 
 2. **Design a FaceBook login page with Tailwind and CSS**:
    - Creating this page will allow you to practice styling and integrating forms with Tailwind, and understand how to create responsive layouts.
-   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class-07/my-app/src/app/facebook))
+   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class_07/my-app/src/app/facebook))
 
 3. **Build a Todo Application using Tailwind CSS**:
    - Developing a Todo Application will teach you about CRUD operations (Create, Read, Update, Delete) in Next.js while enhancing your ability to use Tailwind for responsive and interactive UIs.
-   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class-07/my-app/src/app/todo))
+   - Checkout the project which I have made: ([Link](https://github.com/Okashanadeem/GIAIC/tree/main/Quarter%202/class_07/my-app/src/app/todo))
 
 These projects will also reinforce your understanding of React, Next.js, and Tailwind CSS, enhancing your ability to create efficient and appealing web applications.
 
@@ -102,5 +102,3 @@ For detailed tutorials and examples, check out these links:
 - **Portfolio**: [YouTube Tutorial](https://youtu.be/XrES0mj_07w?si=4gCnB2YhwQCDbEed)
 - **FaceBook login page**: [YouTube Tutorial](https://youtu.be/XrES0mj_07w?si=4gCnB2YhwQCDbEed)
 - **Todo Application**: [YouTube Tutorial](https://youtu.be/053kfsm9CdE)
-
-These tutorials will guide you through the process step-by-step, helping you utilize Tailwind effectively to create responsive and visually appealing designs.
