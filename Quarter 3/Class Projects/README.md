@@ -1,6 +1,9 @@
 # Python Projects Collection
 
-A collection of interactive web applications built with Python and Streamlit.
+A collection of interactive web applications built with Python and Streamlit, developed as part of the Governor Initiative of Artificial Intelligence (GIAIC) program.
+
+## 📚 About
+These projects were developed during the Python programming course at GIAIC, demonstrating practical applications of Python programming concepts and web development using Streamlit. GIAIC is a government initiative aimed at promoting artificial intelligence and computing education in Pakistan.
 
 ## 🚀 Projects
 
@@ -67,3 +70,8 @@ Feel free to submit issues and enhancement requests!
 
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+- Governor Initiative of Artificial Intelligence (GIAIC) for providing the opportunity to learn and develop these projects
+- Streamlit team for the amazing framework
+- All contributors and supporters
