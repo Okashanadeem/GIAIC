@@ -1,0 +1,10 @@
+[
+    {
+        "title": "my book",
+        "author": "okasha nadeem",
+        "year": 2024,
+        "genre": "funny",
+        "read_status": true,
+        "date_added": "2025-03-30"
+    }
+]
