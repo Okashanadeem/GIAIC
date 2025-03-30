@@ -19,7 +19,7 @@ A versatile unit conversion tool that handles multiple types of measurements.
 - Real-time conversion
 - User-friendly interface
 
-[Live Demo](https://growth-minset-by-okasha.streamlit.app/)
+[Live Demo](https://unit-convertor-by-okasha.streamlit.app/)
 
 ### 2. Password Strength Meter
 A tool to evaluate and improve password security.
