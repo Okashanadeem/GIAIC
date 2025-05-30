@@ -85,10 +85,11 @@ Interact with the agent through the command-line interface.
 ```
 Assignment 01/
 ├── Research_Summary_Doc
-├── hello_agent.py
-├── requirements.txt
-├── .env
-└── README.md
+├── my_agentic_ai_project
+    ├── hello_agent.py
+    ├── requirements.txt
+    ├── .env
+    └── README.md
 ```
 
 * `Research_Summary_Doc`: Contains the research findings.
