@@ -37,8 +37,29 @@ The **Health & Wellness Planner Agent** is a fully functional AI-powered digital
 ### Prerequisites
 
 - Python 3.8 or higher
-- OpenAI API key
+- **OpenAI API key** (Required - this project uses OpenAI Agents SDK)
 - Internet connection for API calls
+
+### ⚠️ **Important: API Compatibility**
+
+**This project is specifically built for OpenAI Agents SDK and will NOT work with other APIs:**
+
+- ✅ **OpenAI API**: Fully supported and required
+- ❌ **Gemini API**: Not compatible (different SDK architecture)
+- ❌ **Claude API**: Not compatible (different agent framework)
+- ❌ **Other APIs**: Not compatible without major code rewriting
+
+**Why OpenAI Only?**
+- Uses OpenAI Agents SDK's built-in agent framework
+- Relies on OpenAI's native tool calling and function execution
+- Implements OpenAI-specific streaming and handoff systems
+- Designed around OpenAI's agent orchestration patterns
+
+**To use other APIs, you would need to:**
+- Rewrite 80% of the codebase
+- Build custom agent framework
+- Implement manual tool calling
+- Create custom streaming and handoff systems
 
 ### Step 1: Clone or Download the Project
 
@@ -233,6 +254,25 @@ Use these example inputs to quickly test the system:
 
 ## Technical Details
 
+### API Requirements
+
+**OpenAI Agents SDK Dependency:**
+This project is built specifically for the OpenAI Agents SDK and cannot be used with other AI APIs without significant modifications.
+
+**Required API Features:**
+- Native agent framework
+- Built-in tool calling and function execution  
+- Streaming response capabilities
+- Agent handoff mechanisms
+- Context management systems
+
+**Alternative APIs (Gemini, Claude, etc.) would require:**
+- Complete rewrite of agent system (80% of codebase)
+- Custom tool calling implementation
+- Manual streaming and handoff systems
+- Custom context management
+- Estimated rebuild time: 2-3 weeks
+
 ### State Management
 - **UserSessionContext**: Maintains user profile, goals, plans, and progress
 - **Persistent Storage**: Remembers information across conversations
@@ -260,6 +300,7 @@ Use these example inputs to quickly test the system:
 2. **OpenAI API key issues**
    - Check your `.env` file exists and contains valid API key
    - Verify API key has sufficient credits
+   - **Note**: Only OpenAI API keys work - Gemini, Claude, or other API keys will not work
 
 3. **Streamlit won't start**
    - Ensure port 8501 is available
@@ -269,6 +310,20 @@ Use these example inputs to quickly test the system:
    - Check internet connection
    - Verify OpenAI API status
    - Review console logs for specific errors
+
+5. **"Wrong API" errors**
+   - This project only works with OpenAI API
+   - Using Gemini, Claude, or other APIs will cause errors
+   - Ensure you're using a valid OpenAI API key (starts with `sk-`)
+
+### API Compatibility Issues
+
+**If you see errors like:**
+- "Invalid API key format"
+- "Unsupported model"
+- "Agent framework not found"
+
+**Solution:** Verify you're using an OpenAI API key, not keys from other providers.
 
 ### Performance Tips
 
